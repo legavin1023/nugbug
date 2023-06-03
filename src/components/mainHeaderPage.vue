@@ -19,11 +19,20 @@
       </div>
       <form ref="form" @submit.prevent="sendEmail" class="header-box-form">
         <input
+          class="nomovi"
           type="text"
           ref="contents"
           v-model="contents"
           name="contents"
           placeholder="여기에 다양한 의견을 남겨주세요! 리퀘스트도 좋아요!"
+        />
+        <input
+          class="movi"
+          type="text"
+          ref="contents"
+          v-model="contents"
+          name="contents"
+          placeholder="여기에 다양한 의견을 남겨주세요!"
         />
         <button type="submit" class="header-box-form-button">
           <span>보내기</span>

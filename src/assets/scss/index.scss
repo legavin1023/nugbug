@@ -211,6 +211,7 @@ input[type="submit"]:active {
       flex-wrap: nowrap;
       align-items: center;
       justify-content: flex-end;
+
       &:before {
         content: url("@/assets/image/mail-chat-bubble-typing-oval--messages-message-bubble-typing-chat.svg");
         position: relative;
@@ -274,6 +275,9 @@ input[type="submit"]:active {
         height: 76px;
         line-height: 76px;
         padding-left: 14.34px;
+        .movi {
+          display: none;
+        }
         &:before {
           width: 22.32px;
           height: 22.21px;
@@ -336,24 +340,31 @@ input[type="submit"]:active {
         }
       }
       &-form {
+        .nomovi {
+          display: none;
+        }
         width: 80%;
         margin: auto;
         min-width: 320px;
         height: 50px;
         line-height: 76px;
+        justify-content: space-around;
+        padding: 0 20px;
         &:before {
           width: 22.32px;
           height: 22.21px;
           top: -20px;
-          margin-left: 20px;
+          left: 20px;
         }
         input[type="text"] {
-          padding-left: 12px;
+          padding-left: 32px !important;
           font-size: 12px;
           text-overflow: ellipsis;
           white-space: nowrap;
+          z-index: 90;
         }
         &-button {
+          z-index: 100;
           flex-shrink: 0;
           width: 38px;
           flex-basis: 38px;
@@ -833,6 +844,7 @@ input[type="submit"]:active {
           h2 {
             font-weight: 700;
             font-size: 26px;
+            padding-top: 20px;
             line-height: 31px;
           }
           p {
@@ -1889,7 +1901,7 @@ input[type="submit"]:active {
       margin-bottom: 11px;
     }
     .textarea {
-      height: 200px;
+      height: 160px;
     }
     input:focus,
     textarea:focus,
