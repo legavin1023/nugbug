@@ -1,6 +1,36 @@
 <template>
   <div class="add">
-    <VueSlickCarousel class="add-box" v-bind="settings">
+    <div class="custom">
+      <button @click="goToPrev" class="custom-button prev-button">
+        <svg
+          width="12"
+          height="20"
+          viewBox="0 0 12 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 20L0 10L10 0L11.775 1.775L3.55 10L11.775 18.225L10 20Z"
+            fill="#C1C1C1"
+          />
+        </svg>
+      </button>
+      <button @click="goToNext" class="custom-button next-button">
+        <svg
+          width="13"
+          height="20"
+          viewBox="0 0 13 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.025 20L0.25 18.225L8.475 10L0.25 1.775L2.025 0L12.025 10L2.025 20Z"
+            fill="#C1C1C1"
+          />
+        </svg>
+      </button>
+    </div>
+    <VueSlickCarousel class="add-box" v-bind="settings" ref="carousel">
       <div class="add-box-ad1 add-box-image">
         <div class="text text-ad1">
           <div>
@@ -104,6 +134,12 @@ export default {
       if (window.innerWidth <= 863) {
         this.settings.fade = true;
       }
+    },
+    goToPrev() {
+      this.$refs.carousel.prev();
+    },
+    goToNext() {
+      this.$refs.carousel.next();
     },
   },
 };

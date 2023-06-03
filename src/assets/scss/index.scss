@@ -113,12 +113,9 @@
 //--------------- 폰트
 //--------------- 공통
 html,
-body,
-.app {
+body {
   margin: 0;
-  width: 100vw !important;
-  overflow: auto;
-  overflow-y: overlay !important;
+  overflow-x: hidden;
   padding: 0;
 }
 body {
@@ -660,6 +657,8 @@ input[type="submit"]:active {
         width: 320px;
         height: 179px;
         margin-bottom: 12px;
+        position: relative;
+        left: -10px;
         dl {
           padding: 18px 20px;
           dt {
@@ -859,6 +858,9 @@ input[type="submit"]:active {
 }
 
 @media (min-width: 864px) {
+  .custom {
+    display: none;
+  }
   .add {
     &-box {
       &-ad1 {
@@ -906,6 +908,19 @@ input[type="submit"]:active {
 }
 @media (max-width: 863px) {
   .add {
+    .custom {
+      z-index: 100;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      top: 260px;
+      &-button {
+        width: 50px;
+        height: 50px;
+      }
+    }
     width: 100%;
     .slick-list {
       padding: 10px 0 !important; /* box-shadow의 블러 크기에 맞게 padding 값을 설정하세요. */
@@ -975,22 +990,6 @@ input[type="submit"]:active {
               background: #2b2c32;
               color: #fff;
             }
-          }
-          div::after {
-            content: url("@/assets/image/arrow_forward_ios.svg");
-            width: 11.78px;
-            height: 20px;
-            position: relative;
-            top: -99px;
-            left: 144px;
-          }
-          div::before {
-            content: url("@/assets/image/arrow_back_ios.svg");
-            width: 11.78px;
-            height: 20px;
-            position: relative;
-            top: 234px;
-            left: -130px;
           }
         }
       }
