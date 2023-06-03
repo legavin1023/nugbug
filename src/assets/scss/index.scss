@@ -1,0 +1,1912 @@
+//--------------- 폰트
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 100;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot?#iefix") format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot?#iefix") format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 800;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 900;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff") format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.ttf") format("truetype");
+  font-display: swap;
+}
+* {
+  font-family: "Pretendard" !important;
+  box-sizing: border-box;
+}
+//--------------- 폰트
+//--------------- 공통
+html,
+body,
+.app {
+  margin: 0;
+  width: 100vw !important;
+  overflow: auto;
+  overflow-y: overlay !important;
+  padding: 0;
+}
+body {
+  cursor: url("@/assets/image/cursor/normal.svg"), url("@/assets/image/cursor/normal.svg") 5 5, progress !important;
+}
+body:active {
+  cursor: url("@/assets/image/cursor/click.svg"), url("@/assets/image/cursor/click.svg") 5 5, progress !important;
+}
+input,
+textarea {
+  cursor: url("@/assets/image/cursor/normal.svg"), url("@/assets/image/cursor/normal.svg") 5 5, progress !important;
+}
+input:active,
+button:active {
+  cursor: url("@/assets/image/cursor/click.svg"), url("@/assets/image/cursor/click.svg") 5 5, progress !important;
+}
+button,
+a,
+label,
+select,
+option,
+input[type="submit"] {
+  cursor: url("@/assets/image/cursor/link.svg"), url("@/assets/image/cursor/link.svg") 5 5, progress !important;
+}
+button:active,
+a:active,
+label:active,
+select:active,
+option:active,
+input[type="submit"]:active {
+  cursor: url("@/assets/image/cursor/link_click.svg"), url("@/assets/image/cursor/link_click.svg") 5 5, progress !important;
+}
+::-webkit-scrollbar {
+  overflow-y: overlay !important;
+  width: 20px; /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: rgba(238, 241, 250, 0.8);
+  border: 4px solid rgba(174, 175, 208, 0.8);
+  border-radius: 9.5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /*스크롤바 뒷 배경 색상*/
+  background: transparent;
+  display: none;
+}
+
+//--------------- 공통
+//--------------- 헤더
+
+.header {
+  width: 100%;
+  background: #e2d8f2;
+  animation: backgroundColor 10s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  .email {
+    position: absolute;
+    border-radius: 100%;
+    background: url("@/assets/image/forward_to_inbox.svg") no-repeat;
+    background-color: #ffffff;
+    background-position: center;
+    text-indent: -9999px;
+    animation: emailColor 10s infinite;
+    opacity: 80%;
+  }
+  &-box {
+    animation: nugbugImage 10s infinite;
+    &-contents {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h2 {
+        animation: H2Color 10s infinite;
+        font-weight: 900;
+      }
+      h3 {
+        font-weight: 400;
+        color: #3d3943;
+      }
+    }
+
+    &-form {
+      background: #ffffff;
+      box-shadow: -1px 2px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 100px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: flex-end;
+      &:before {
+        content: url("@/assets/image/mail-chat-bubble-typing-oval--messages-message-bubble-typing-chat.svg");
+        position: relative;
+        top: -20px;
+      }
+      input[type="text"] {
+        flex: 1;
+        font-weight: 400;
+        color: #7f8092;
+      }
+      input[type="text"]:focus {
+        outline: none;
+      }
+      &-button {
+        background: #f8f5f5;
+        font-weight: 700;
+        text-align: center;
+        color: #796c8a;
+        svg {
+          position: relative;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 864px) {
+  .header {
+    width: 100%;
+    .email {
+      width: 72px;
+      height: 72px;
+      right: 55px;
+      top: 55px;
+      border-radius: 100%;
+      background-size: 25.33px;
+    }
+    &-box {
+      width: 65%;
+      min-width: 850px;
+      height: 389px;
+      background-position: right 30px bottom 6px !important;
+      background-size: 61.2% !important;
+      &-contents {
+        width: 100%;
+        height: 346px;
+        padding-left: 54px;
+        h2 {
+          margin: 20px 0 12px;
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 43px;
+        }
+        h3 {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+        }
+      }
+      &-form {
+        width: 100%;
+        height: 76px;
+        line-height: 76px;
+        padding-left: 14.34px;
+        &:before {
+          width: 22.32px;
+          height: 22.21px;
+          margin-left: 49px;
+          top: -20px;
+        }
+        input[type="text"] {
+          padding-left: 14.34px;
+          font-size: 16px;
+        }
+        &-button {
+          width: 162px;
+          height: 54px;
+          margin-right: 14.34px;
+          border-radius: 38px;
+          line-height: 54px;
+
+          svg {
+            top: 4px;
+            left: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 863px) {
+  .header {
+    width: 100%;
+    .email {
+      width: 40px;
+      height: 40px;
+      flex: none;
+      position: absolute;
+      right: 17px;
+      top: 19px;
+      border-radius: 100%;
+      background-size: 25.33px;
+    }
+    &-box {
+      width: 100%;
+      height: 285px;
+      background-position: center bottom 12px !important;
+      background-size: 300px !important;
+      &-contents {
+        width: 100%;
+        height: 260px;
+        h2 {
+          margin: -40px 0 12px;
+          font-weight: 900;
+          font-size: 20px;
+          line-height: 23px;
+          text-align: center;
+        }
+        h3 {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+        }
+      }
+      &-form {
+        width: 80%;
+        margin: auto;
+        min-width: 320px;
+        height: 50px;
+        line-height: 76px;
+        &:before {
+          width: 22.32px;
+          height: 22.21px;
+          top: -20px;
+          margin-left: 20px;
+        }
+        input[type="text"] {
+          padding-left: 12px;
+          font-size: 12px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        &-button {
+          flex-shrink: 0;
+          width: 38px;
+          flex-basis: 38px;
+          height: 38px;
+          margin-right: 14.34px;
+          border-radius: 38px;
+          line-height: 54px;
+          span {
+            display: inline-block;
+            text-indent: -9999px;
+          }
+          svg {
+            width: 17.49px;
+            height: 16.52px;
+            top: -6px;
+            left: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+@keyframes backgroundColor {
+  0% {
+    background-color: #e2d8f2;
+  }
+  33% {
+    background-color: #f8f4d0;
+  }
+  66% {
+    background-color: #e0f3fd;
+  }
+  100% {
+    background-color: #e2d8f2;
+  }
+}
+@keyframes H2Color {
+  0% {
+    color: #4c3070;
+  }
+  33% {
+    color: #ba5821;
+  }
+  66% {
+    color: #1474af;
+  }
+  100% {
+    color: #4c3070;
+  }
+}
+@keyframes emailColor {
+  0% {
+    box-shadow: 8px 2px 12px rgba(168, 90, 187, 0.2);
+  }
+  33% {
+    box-shadow: 8px 2px 12px #dbd6af;
+  }
+  66% {
+    box-shadow: 8px 2px 12px rgba(43, 104, 123, 0.22);
+  }
+  100% {
+    box-shadow: 8px 2px 12px rgba(168, 90, 187, 0.2);
+  }
+}
+@keyframes nugbugImage {
+  0% {
+    background: url("@/assets/image/header/nugbugP.png") no-repeat;
+  }
+  33% {
+    background: url("@/assets/image/header/nugbugY.png") no-repeat;
+  }
+  66% {
+    background: url("@/assets/image/header/nugbugB.png") no-repeat;
+  }
+  100% {
+    background: url("@/assets/image/header/nugbugP.png") no-repeat;
+  }
+}
+@media (hover: hover) {
+  .header {
+    .email:hover {
+      opacity: 100%;
+    }
+    &-box {
+      &-form {
+        &-button {
+        }
+        &-button:hover {
+          background: #ecfafe;
+          color: #5282ba;
+          outline: 1px solid #b7d7f4;
+          outline-offset: -1px;
+          path:nth-of-type(2),
+          path:nth-of-type(4) {
+            stroke: #71a3be;
+          }
+        }
+      }
+    }
+  }
+}
+//--------------- 헤더
+//--------------- 팀원소개
+
+.team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    margin-top: 114px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1c1c1c;
+    text-align: center;
+  }
+
+  &-go {
+    width: 160px;
+    margin-top: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    svg {
+      position: relative;
+      top: 4px;
+      left: 7px;
+    }
+  }
+
+  &-box {
+    min-width: 850px;
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 86px;
+
+    li {
+      width: 279px;
+      height: 320px;
+      background: #ffffff;
+      box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.1);
+      border-radius: 13px;
+      margin: 0 8px;
+
+      dl {
+        padding: 20px;
+        dt {
+          display: flex;
+          justify-content: space-between;
+          .position {
+            &-box {
+              span {
+                display: inline-block;
+                width: 41px;
+                height: 22px;
+                background: #e6f9fa;
+                border-radius: 4px;
+                margin-right: 6px;
+                font-size: 12px;
+                line-height: 22px;
+                color: #5c6f8c;
+                text-align: center;
+              }
+              span:nth-of-type(2) {
+                width: 51px;
+                height: 22px;
+                background: #fcecec;
+                font-size: 12px;
+                color: #844f4f;
+              }
+            }
+            .twitter {
+              margin-top: 30px;
+              font-weight: 700;
+              font-size: 22px;
+              &-box {
+                display: inline-block;
+                width: 17px;
+                height: 17px;
+                text-indent: -99999px;
+                background: url("@/assets/image/twitter.svg") no-repeat;
+                position: relative;
+                top: 2px;
+                left: 4px;
+              }
+            }
+          }
+          .profile {
+            width: 86px;
+            height: 86px;
+            border-radius: 50%;
+            &.t1 {
+              background: url("@/assets/image/profile/아델리.png") no-repeat;
+              background-color: #dfcff5;
+              background-size: 72.77px;
+              background-position: center 14px;
+            }
+            &.t2 {
+              background: url("@/assets/image/profile/홍게.png") no-repeat;
+              background-color: #f5e1cf;
+              background-size: 105px;
+              background-position: center 20px;
+            }
+            &.t3 {
+              background: url("@/assets/image/profile/옥시.png") no-repeat;
+              background-color: #f9f1a9;
+              background-size: 92.62px;
+              background-position: center 4px;
+            }
+            &.t4 {
+              background: url("@/assets/image/profile/엔디안.png") no-repeat;
+              background-color: #d8f1ff;
+              background-size: 76.9px;
+              background-position: center -30px;
+            }
+          }
+        }
+        dd:first-of-type {
+          margin-top: 33px;
+          p:first-of-type {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+          }
+          p:first-of-type::before {
+            content: url("@/assets/image/chat_bubble.svg");
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+            position: relative;
+            top: 4px;
+          }
+          p:nth-of-type(2) {
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+            letter-spacing: -0.035em;
+          }
+        }
+        dd:nth-of-type(2) {
+          width: 211px;
+          height: 44px;
+          margin: 32px auto 0;
+          background: #ffffff;
+          border: 1px solid #eaeaea;
+          border-radius: 100px;
+          line-height: 44px;
+          text-align: center;
+          button {
+            width: 100%;
+            height: 100%;
+          }
+          button::after {
+            content: url("@/assets/image/forward_to_inbox.svg");
+            width: 20px;
+            height: 20px;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 864px) and (max-width: 1200px) {
+  .team {
+    &-box {
+      flex-wrap: wrap;
+      li {
+        width: 48%;
+        height: 320px;
+        margin: 0 1% 20px;
+      }
+    }
+  }
+}
+@media (max-width: 863px) {
+  .team {
+    margin-top: -40px;
+    h2 {
+      font-size: 18px;
+    }
+    &-go {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    &-box {
+      margin-top: 26px;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+
+      li {
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+        width: 320px;
+        height: 179px;
+        margin-bottom: 12px;
+        dl {
+          padding: 18px 20px;
+          dt {
+            .position {
+              &-box {
+                span {
+                  width: 38px;
+                  height: 20px;
+                  font-size: 10px;
+                  line-height: 20px;
+                }
+                span:nth-of-type(2) {
+                  width: 46px;
+                  height: 20px;
+                  font-size: 10px;
+                }
+              }
+              .twitter {
+                margin-top: 17px;
+                font-weight: 700;
+                font-size: 16px;
+                &-box {
+                  display: inline-block;
+                  width: 17px;
+                  height: 17px;
+                  text-indent: -99999px;
+                  background: url("@/assets/image/twitter.svg") no-repeat;
+                  position: relative;
+                  top: -2px;
+                  left: 4px;
+                }
+              }
+            }
+            .profile {
+              width: 65px;
+              height: 65px;
+              border-radius: 50%;
+              &.t1 {
+                background-size: 72.77px;
+              }
+              &.t2 {
+                background-size: 80px;
+              }
+              &.t3 {
+                background-size: 70px;
+              }
+              &.t4 {
+                background-size: 70px;
+              }
+            }
+          }
+          dd:first-of-type {
+            margin-top: 10px;
+            p:first-of-type {
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 19px;
+            }
+            p:first-of-type::before {
+              width: 16px;
+              height: 16px;
+              margin-right: 4px;
+              position: relative;
+              top: 4px;
+            }
+            p:nth-of-type(2) {
+              margin-top: -6px;
+              font-weight: 500;
+              font-size: 11px;
+              line-height: 15px;
+            }
+          }
+          dd:nth-of-type(2) {
+            display: inline-block;
+            position: relative;
+            top: -74px;
+            left: 250px;
+            width: 30px;
+            height: 30px;
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            button {
+              width: 100%;
+              height: 100%;
+              span {
+                display: none;
+              }
+            }
+            button::after {
+              width: 10.95px;
+              height: 10px;
+              position: relative;
+              top: -7px;
+              left: -4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (hover: hover) {
+  .team {
+    &-go:hover {
+      font-weight: 800;
+      svg {
+        rect {
+          fill: #747474;
+          stroke: #747474;
+        }
+        path {
+          fill: #fff;
+        }
+      }
+    }
+    &-box {
+      li {
+        dl {
+          dd:nth-of-type(2) {
+            button:hover {
+              position: relative;
+              background: #f0f0f0;
+              outline: 1px solid #eaeaea;
+              overflow: hidden;
+              border-radius: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//--------------- 팀원소개
+//--------------- 광고
+.slick-list {
+  width: 100%;
+  // padding: 5px 0 !important; /* box-shadow의 블러 크기에 맞게 padding 값을 설정하세요. */
+}
+.add {
+  .slick-dots {
+    position: relative;
+    top: -40px;
+    margin-bottom: -20px;
+    li {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      button::before {
+        /* 도트의 색상을 변경하는 스타일 */
+        display: block;
+        font-size: 18px !important;
+        color: #fff !important;
+        letter-spacing: 0px !important;
+      }
+    }
+  }
+  width: 100%;
+  &-box {
+    width: 100%;
+    &-image {
+      width: 100%;
+      height: 369px;
+      display: flex !important;
+      align-items: center;
+      justify-content: end;
+      .text {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        div {
+          padding-right: 20%;
+          h2 {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+          }
+          p {
+            margin-top: 26px;
+            margin-bottom: 31px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+          }
+          button {
+            width: 131px;
+            height: 45px;
+            border: 1px solid #505050;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #010101;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 864px) {
+  .add {
+    &-box {
+      &-ad1 {
+        background: url("@/assets/image/ad/add1.png");
+        background-position: center !important;
+      }
+      &-ad2 {
+        background: url("@/assets/image/ad/add2.png");
+        background-position: center !important;
+      }
+      &-ad3 {
+        background: url("@/assets/image/ad/add3.png");
+        background-position: center !important;
+      }
+      &-ad4 {
+        background: url("@/assets/image/ad/add4.png");
+        background-position: center !important;
+      }
+    }
+  }
+}
+@media (max-width: 1708px) {
+  .add {
+    &-box {
+      &-image {
+        .text {
+          div {
+            padding-right: 4%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 864px) and (max-width: 1708px) {
+  .add {
+    &-box {
+      &-image {
+        .text {
+          padding-right: 8%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 863px) {
+  .add {
+    width: 100%;
+    .slick-list {
+      padding: 10px 0 !important; /* box-shadow의 블러 크기에 맞게 padding 값을 설정하세요. */
+    }
+    &-box {
+      width: 100%;
+      border-radius: 10px;
+      &-image {
+        width: 100%;
+        height: 375px;
+        display: flex !important;
+        align-items: center;
+        justify-content: end;
+        .text {
+          background: #ffffff;
+          box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+          background-size: auto 165px !important;
+          background-position: top !important;
+          width: 320px;
+          border-radius: 10px;
+          margin: auto;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          &-ad1 {
+            background: url("@/assets/image/ad/add1.png") no-repeat;
+          }
+          &-ad2 {
+            background: url("@/assets/image/ad/add2.png") no-repeat;
+          }
+          &-ad3 {
+            background: url("@/assets/image/ad/add3.png") no-repeat;
+            background-position: top left !important;
+          }
+          &-ad4 {
+            background: url("@/assets/image/ad/add4.png") no-repeat;
+          }
+          div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+              margin-top: 175px;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 19px;
+              text-align: center;
+            }
+            p {
+              font-size: 11px;
+              line-height: 13px;
+              text-align: center;
+              margin: 14px 23px;
+            }
+            button {
+              position: relative;
+              top: 10px;
+              width: 131px;
+              height: 45px;
+              border: 1px solid #505050;
+              border-radius: 100px;
+              font-weight: 600;
+              font-size: 14px;
+              color: #010101;
+            }
+            button:hover {
+              background: #2b2c32;
+              color: #fff;
+            }
+          }
+          div::after {
+            content: url("@/assets/image/arrow_forward_ios.svg");
+            width: 11.78px;
+            height: 20px;
+            position: relative;
+            top: -99px;
+            left: 144px;
+          }
+          div::before {
+            content: url("@/assets/image/arrow_back_ios.svg");
+            width: 11.78px;
+            height: 20px;
+            position: relative;
+            top: 234px;
+            left: -130px;
+          }
+        }
+      }
+    }
+  }
+  .slick-dots {
+    display: none;
+  }
+}
+@media (hover: hover) {
+  .add {
+    &-box {
+      &-image {
+        .text {
+          div {
+            button:hover {
+              background: #2b2c32;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//--------------- 광고
+//--------------- 프로젝트
+
+.project {
+  width: 100vw;
+  overflow-x: hidden;
+  background: #f8faff;
+  .slick-list {
+    padding: 30px 0 !important; /* box-shadow의 블러 크기에 맞게 padding 값을 설정하세요. */
+  }
+  h2 {
+    color: #212442;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  > dl {
+    display: flex;
+    justify-content: center;
+  }
+  &-box {
+    &-slide {
+      background: #ffffff;
+      box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.1);
+      // filter: drop-shadow(0px 0px 21px rgba(0, 0, 0, 0.1));
+    }
+
+    &-image {
+      display: block;
+      background-size: 280% !important;
+      background-position: center !important;
+      transition: 1s;
+      display: flex;
+      justify-content: end;
+      background: #eee;
+      &-final {
+        background: url("@/assets/image/ad/add1.png");
+      }
+      &-andraste {
+        background: url("@/assets/image/ad/add2.png");
+      }
+      &-web {
+        background: url("@/assets/image/ad/add3.png");
+      }
+      span {
+        &-final {
+          background: url("@/assets/image/ad/add1.png");
+        }
+        display: inline-block;
+        color: #fff;
+        background: #1e1e1e;
+        text-align: center;
+      }
+    }
+
+    &-sj {
+      padding: 0 38px;
+      span {
+        display: block;
+      }
+      p:nth-of-type(2) {
+        color: #535353;
+      }
+    }
+    &-team {
+      display: flex;
+      div {
+        background-size: 100%;
+        background: #f9f9f9;
+      }
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .lee {
+        padding: 12px 48px 10px 14px !important;
+      }
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        padding: 12px 58px 10px 14px;
+        background: #ffffff;
+        box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.1);
+        border-radius: 10px 10px 10px 0px;
+        position: absolute;
+        z-index: 1;
+        left: 20px;
+        top: -55px;
+        opacity: 0;
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap; /* 줄바꿈 방지 */
+        span {
+          flex-shrink: 0;
+          display: inline-block;
+        }
+        span:first-of-type {
+          padding: 4px 10px;
+          background: #e6f9fa;
+          border-radius: 4px;
+          font-size: 12px;
+          line-height: 22px;
+          color: #5c6f8c;
+        }
+        span:nth-of-type(2) {
+          padding: 4px 10px;
+          background: #fcecec;
+          border-radius: 4px;
+          line-height: 22px;
+          font-size: 12px;
+          color: #844f4f;
+          margin-left: 5px;
+        }
+        span:nth-of-type(3) {
+          font-weight: 700;
+          padding: 4px 10px;
+          background: #fff;
+          border-radius: 4px;
+          line-height: 22px;
+          font-size: 14px;
+          color: #373737;
+          margin-left: 5px;
+        }
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }
+      .t1 {
+        background: url("@/assets/image/profile/아델리.png") no-repeat;
+        background-color: #dfcff5;
+        background-size: 31.31px;
+        background-position: center 8px;
+      }
+      .t2 {
+        background: url("@/assets/image/profile/홍게.png") no-repeat;
+        background-color: #f5e1cf;
+        background-size: 45.18px;
+        background-position: center 8px;
+      }
+      .t3 {
+        background: url("@/assets/image/profile/옥시.png") no-repeat;
+        background-color: #f9f1a9;
+        background-size: 39.85px;
+        background-position: center 2px;
+      }
+      .t4 {
+        background: url("@/assets/image/profile/엔디안.png") no-repeat;
+        background-color: #d8f1ff;
+        background-size: 33.09px;
+        background-position: center -14px;
+      }
+    }
+    &-stack {
+      span {
+        display: inline-block;
+        background: #f9f9f9;
+        text-align: center;
+      }
+    }
+    &-pj {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      button {
+        border: 1px solid #e2e2e2;
+      }
+    }
+  }
+  .slick-dots {
+    text-align: center;
+    position: relative;
+    left: -10px;
+    top: -706px;
+    li {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      button::before {
+        /* 도트의 색상을 변경하는 스타일 */
+        display: block;
+        font-size: 7px !important;
+        color: #a4b6e1 !important;
+        letter-spacing: 0px !important;
+      }
+    }
+    li.slick-active {
+      button::before {
+        /* 도트의 색상을 변경하는 스타일 */
+        display: block;
+        font-size: 11px !important;
+        color: #a4b6e1 !important;
+        letter-spacing: 0px !important;
+      }
+    }
+  }
+  .custom {
+    top: 6px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    &-button {
+      z-index: 100;
+      width: 46px;
+      height: 46px;
+      background: #ffffff;
+      border: 2px solid #dde0f2;
+      border-radius: 100px;
+      margin-bottom: -46px;
+    }
+  }
+}
+@media (min-width: 864px) {
+  .project {
+    width: 100%;
+    height: 1015px;
+    h2 {
+      padding-top: 127px;
+      font-weight: 700;
+      font-size: 34px;
+    }
+    > dl {
+      width: 400px !important;
+    }
+    &-box {
+      margin-top: 57px;
+      // width: 2000px;
+      &-slide {
+        width: 390px !important;
+        height: 596px;
+        margin: 0 22px;
+        border-radius: 20px;
+      }
+
+      &-image {
+        border-radius: 20px 20px 0px 0px;
+        width: 390px;
+        height: 194px;
+        padding: 10px 12px;
+        background-size: 280% !important;
+        background-position: center !important;
+        span {
+          width: 67px;
+          height: 33px;
+          border-radius: 100px;
+          line-height: 33px;
+          font-size: 14px;
+        }
+      }
+      &-sj {
+        padding: 0 38px;
+        span {
+          display: block;
+          font-weight: 700;
+          font-size: 14px;
+          margin: 35px 0 13px;
+        }
+        h3 {
+          font-weight: 800;
+          font-size: 24px;
+        }
+        p:first-of-type {
+          font-weight: 400;
+          font-size: 18px;
+          margin: 8px 0 29px;
+        }
+        p:nth-of-type(2) {
+          font-weight: 600;
+          font-size: 14px;
+          margin-bottom: 33px;
+        }
+      }
+      &-team {
+        padding: 0 38px;
+        display: flex;
+        div {
+          width: 37px;
+          height: 37px;
+          border-radius: 100%;
+          margin-right: 10.58px;
+          background-size: 100%;
+        }
+      }
+      &-stack {
+        padding: 15px 38px 29px;
+        span {
+          width: 61px;
+          height: 30px;
+          border-radius: 4px;
+          line-height: 30px;
+          margin-right: 6px;
+        }
+      }
+      &-pj {
+        width: 100%;
+        button {
+          width: 152px;
+          height: 49px;
+          border-radius: 40px;
+          margin: 0 10px;
+        }
+        &-no {
+          margin-top: -6px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 863px) {
+  .project {
+    margin-top: 20px;
+    width: 100%;
+    // height: 607px;
+    .slick-dots {
+      position: relative;
+      top: -560px;
+    }
+    h2 {
+      padding-top: 51px;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    > dl {
+      width: 400px !important;
+    }
+    &-box {
+      margin-top: 57px;
+      // width: 2000px;
+      &-slide {
+        width: 255px !important;
+        height: 453px;
+        margin: 0 22px;
+        border-radius: 20px;
+      }
+      &-image {
+        border-radius: 20px 20px 0px 0px;
+        width: 255;
+        height: 113px;
+        padding: 10px 12px;
+        background-size: 280% !important;
+        background-position: center !important;
+        span {
+          width: 60px;
+          height: 22px;
+          border-radius: 100px;
+          line-height: 22px;
+          font-size: 12px;
+        }
+      }
+      &-sj {
+        padding: 0 38px;
+        span {
+          display: block;
+          font-weight: 700;
+          font-size: 12px;
+          margin: 16px 0 4px;
+        }
+        h3 {
+          font-weight: 800;
+          font-size: 18px;
+        }
+        p:first-of-type {
+          font-weight: 400;
+          font-size: 12px;
+          margin: 4px 0 10px;
+        }
+        p:nth-of-type(2) {
+          font-weight: 600;
+          font-size: 12px;
+          margin-bottom: 20px;
+        }
+      }
+      &-team {
+        padding: 0 38px;
+        display: flex;
+        div {
+          width: 37px;
+          height: 37px;
+          border-radius: 100%;
+          margin-right: 10.58px;
+          background-size: 100%;
+        }
+      }
+      &-stack {
+        padding: 13px 38px 20px;
+        span {
+          padding: 2px 6px;
+          border-radius: 4px;
+          margin-right: 6px;
+          font-size: 10px;
+        }
+      }
+      &-pj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        button {
+          width: 211px;
+          height: 42px;
+          margin: 0 0 6px;
+          border-radius: 40px;
+        }
+      }
+    }
+  }
+}
+@media (hover: hover) {
+  .project {
+    &-box {
+      &-image:hover {
+        background-size: 320% !important;
+      }
+
+      &-pj {
+        button:hover {
+          background: #2b2c32;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+//--------------- 프로젝트
+//--------------- 푸터
+.footer {
+  border-top: 1px solid #cad4f5;
+  > button {
+    display: block;
+    color: #6d568a;
+  }
+  > button::before {
+    content: url("@/assets/image/vertical_align_top.svg");
+    position: relative;
+  }
+  &-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo {
+      background: url("@/assets/image/logo.svg") no-repeat;
+      width: 134px;
+      height: 29px;
+      margin-bottom: 10px;
+    }
+    &-button {
+      button {
+        background: #ffffff;
+        outline: 1px solid #e2e2e2;
+      }
+      button:nth-of-type(2) {
+      }
+    }
+    &-nugbug {
+      text-align: center;
+      color: #6c6c6c;
+      span {
+        font-weight: 700;
+      }
+    }
+    hr {
+    }
+    &-copy {
+      color: #bababa;
+    }
+  }
+}
+@media (min-width: 864px) {
+  .footer {
+    width: 100%;
+    height: 434px;
+    > button {
+      font-weight: 700;
+      font-size: 18px;
+      margin: 74px auto 30px;
+    }
+    > button::before {
+      width: 20px;
+      height: 20px;
+      margin-right: 4px;
+      top: 6px;
+    }
+    &-box {
+      &-button {
+        margin-bottom: 40px;
+        button {
+          border-radius: 100px;
+          width: 183px;
+          height: 51px;
+          font-weight: 600;
+          font-size: 14px;
+        }
+        button:hover {
+          outline: 1px solid #505050;
+        }
+        button:nth-of-type(2) {
+          margin: 0 11px;
+        }
+      }
+
+      &-nugbug {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        br {
+          display: none;
+        }
+      }
+      hr {
+        width: 244px;
+        margin: 24px 0 54px;
+      }
+      &-copy {
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media (max-width: 863px) {
+  .footer {
+    width: 100%;
+    > button {
+      font-weight: 700;
+      font-size: 15px;
+      margin: 35px auto 28px;
+    }
+    > button::before {
+      width: 20px;
+      height: 20px;
+      margin-right: 4px;
+      top: 6px;
+    }
+    &-box {
+      &-button {
+        margin-bottom: 40px;
+        button {
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 20px;
+          outline: none;
+          border-bottom: 1px solid #e6e6e6;
+        }
+        button:nth-of-type(2) {
+          margin: 0 11px;
+        }
+      }
+
+      .bug {
+        background: url("@/assets/image/bug_report.svg") no-repeat;
+        width: 16px;
+        height: 18px;
+        position: relative;
+        top: -14px;
+      }
+      &-nugbug {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        P:last-child {
+          margin-bottom: 16px;
+        }
+      }
+      hr {
+        display: none;
+      }
+      &-copy {
+        display: block;
+        height: 54px;
+        width: 100%;
+        margin-top: 42px;
+        line-height: 54px;
+        text-align: center;
+        background: #f9f9f9;
+        font-weight: 600;
+        font-size: 11px;
+      }
+    }
+  }
+}
+@media (hover: hover) {
+  .footer {
+    border-top: 1px solid #cad4f5;
+    > button:hover {
+      border-bottom: 1px solid #ab8fce;
+      margin-bottom: 29px;
+    }
+  }
+}
+//--------------- 푸터
+//--------------- 모달
+
+.modal {
+  &-closeButton {
+    position: absolute;
+    background: url("@/assets/image/close.svg") no-repeat;
+    text-indent: -9999px;
+  }
+  &-box {
+    margin-bottom: -1px;
+    display: flex;
+    justify-content: space-between;
+    .hide {
+      display: none;
+    }
+    .selectbox {
+      &-toggle-btn {
+        background: #ffffff;
+        outline: 1px solid #eeeeee;
+        border-radius: 8px;
+        text-align: left;
+      }
+      &-toggle-btn::after {
+        content: url("@/assets/image/expand_more.svg");
+        position: absolute;
+      }
+      &-option {
+        z-index: 10;
+        position: absolute;
+        background: #fff;
+        box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        font-weight: 500;
+        &-btn {
+          &-selected {
+            font-weight: 700;
+          }
+        }
+      }
+      &-option::before {
+        content: url("@/assets/image/expand_more_rotate.svg");
+        position: absolute;
+      }
+    }
+    p {
+      font-weight: 600;
+    }
+    &-radio {
+      position: relative;
+      input[type="radio"] {
+        display: none;
+      }
+      input[type="radio"] + label {
+        display: inline-block;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 12px;
+      }
+      input[type="radio"]:checked + label {
+        background: #474747;
+        color: #fff;
+      }
+    }
+  }
+  h3 {
+    font-weight: 800;
+    color: #1c1c1c;
+  }
+  h4 {
+    font-weight: 400;
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .text {
+    background: #ffffff;
+    outline: 1px solid #eeeeee;
+    border-radius: 8px;
+  }
+  .textarea {
+  }
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: 1px solid #b18ae4;
+  }
+
+  .send {
+    background: #2b2c32;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.96;
+  }
+  .disabled-button {
+    opacity: 0.2;
+  }
+  .disabled-button:hover {
+    opacity: 0.2;
+  }
+}
+@media (min-width: 864px) {
+  .modal {
+    br {
+      display: none;
+    }
+    min-width: 621px;
+    max-height: 851px;
+    padding: 80px 68px 50px;
+    &-closeButton {
+      top: 44px;
+      right: 44px;
+      width: 40px;
+      height: 40px;
+    }
+    &-box {
+      .hide {
+      }
+      .selectbox {
+        &-toggle-btn {
+          height: 60px;
+          width: 168px;
+          padding: 20px;
+        }
+        &-toggle-btn::after {
+          right: 395px;
+        }
+        &-option {
+          width: 168px;
+          top: 268px;
+          font-size: 16px;
+          &-btn {
+            line-height: 60px;
+            &-selected {
+            }
+          }
+        }
+        &-option::before {
+          right: 22px;
+          top: 20px;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 60px;
+        padding-left: 24px;
+      }
+      &-radio {
+        top: 15px;
+        margin-left: 18px;
+        input[type="radio"] {
+          padding-left: 18px;
+        }
+        input[type="radio"] + label {
+          width: 43px;
+          height: 23px;
+          font-size: 11px;
+          line-height: 23px;
+        }
+        input[type="radio"]:checked + label {
+        }
+      }
+    }
+    h3 {
+      margin-top: -38px;
+      font-size: 32px;
+    }
+    h4 {
+      font-size: 16px;
+      line-height: 19px;
+      padding: 6px 0 48px;
+      span {
+      }
+    }
+
+    .text {
+      width: 100%;
+      height: 60px;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+    .textarea {
+      height: 244px;
+    }
+    input:focus,
+    textarea:focus,
+    select:focus {
+    }
+
+    .send {
+      width: 100%;
+      height: 64px;
+      line-height: 64px;
+    }
+  }
+}
+@media (max-width: 863px) {
+  .v-dialog {
+    max-width: 340px !important;
+    min-width: 340px;
+  }
+  .modal {
+    font-size: 12px;
+    max-height: 699px;
+    max-width: 340px;
+    padding: 44px 40px 44px;
+    &-closeButton {
+      top: 18px;
+      right: 21px;
+      width: 30px;
+      height: 30px;
+    }
+    &-box {
+      flex-direction: row;
+      flex-wrap: wrap;
+      .hide {
+      }
+      .selectbox {
+        width: 100%;
+        &-toggle-btn {
+          height: 46px;
+          width: 100%;
+          padding: 20px;
+          line-height: 0px;
+        }
+        &-toggle-btn::after {
+          right: 70px;
+        }
+        &-option {
+          width: calc(100% - 112px) !important;
+          top: 198px;
+          font-size: 12px;
+          &-btn {
+            line-height: 42px;
+            &-selected {
+            }
+          }
+        }
+        &-option::before {
+          right: 14px;
+          top: 14px;
+        }
+      }
+      p {
+        font-size: 12px;
+        margin-bottom: 0px !important;
+        line-height: 60px;
+      }
+      &-radio {
+        line-height: 60px;
+        input[type="radio"] {
+          padding-left: 18px;
+        }
+        input[type="radio"] + label {
+          width: 43px;
+          height: 23px;
+          font-size: 11px;
+          line-height: 23px;
+        }
+        input[type="radio"]:checked + label {
+        }
+      }
+    }
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 11px;
+      line-height: 19px;
+      padding: 6px 0 48px;
+      margin-bottom: -30px;
+      span {
+      }
+    }
+
+    .text {
+      width: 100%;
+      height: 46px;
+      padding: 20px;
+      margin-bottom: 11px;
+    }
+    .textarea {
+      height: 200px;
+    }
+    input:focus,
+    textarea:focus,
+    select:focus {
+    }
+
+    .send {
+      width: 100%;
+      height: 64px;
+      line-height: 64px;
+    }
+  }
+}
+@media (hover: hover) {
+  .send:hover {
+    opacity: 1;
+  }
+}
+//--------------- 모달
