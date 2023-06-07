@@ -31,7 +31,7 @@
           <button @click="goTeamDialog = false" class="modal-closeButton">
             x
           </button>
-          <teamJoinVue />
+          <teamJoinVue ref="teamJoinRef" @closeDialog="goTeamDialog = false" />
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -58,7 +58,7 @@
             </p>
           </dd>
           <dd>
-            <button><span>컨텍하기</span></button>
+            <button><span>컨택하기</span></button>
           </dd>
         </dl>
       </li>
@@ -77,14 +77,14 @@
             <div class="profile t2"></div>
           </dt>
           <dd>
-            <p>이것도 안돼요?</p>
+            <p>이 화면 빼면 안되나요?</p>
             <p>
               기획서 보고 합칠 수 있는 화면부터 <br />
               계산해대는 극한의 효율충 후레 디자이너
             </p>
           </dd>
           <dd>
-            <button><span>컨텍하기</span></button>
+            <button><span>컨택하기</span></button>
           </dd>
         </dl>
       </li>
@@ -111,7 +111,7 @@
             </p>
           </dd>
           <dd>
-            <button><span>컨텍하기</span></button>
+            <button><span>컨택하기</span></button>
           </dd>
         </dl>
       </li>
@@ -137,7 +137,7 @@
             </p>
           </dd>
           <dd>
-            <button><span>컨텍하기</span></button>
+            <button><span>컨택하기</span></button>
           </dd>
         </dl>
       </li>
@@ -152,6 +152,13 @@ export default {
     return {
       goTeamDialog: false,
     };
+  },
+  watch: {
+    goTeamDialog(newVal) {
+      if (newVal === false) {
+        this.$refs.teamJoinRef.resetForm();
+      }
+    },
   },
   components: { teamJoinVue },
 };

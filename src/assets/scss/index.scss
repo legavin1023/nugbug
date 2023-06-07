@@ -146,7 +146,7 @@ label:active,
 select:active,
 option:active,
 input[type="submit"]:active {
-  cursor: url("@/assets/image/cursor/link_click.svg"), url("@/assets/image/cursor/link_click.svg") 5 5, progress !important;
+  cursor: url("@/assets/image/cursor/click.svg"), url("@/assets/image/cursor/click.svg") 5 5, progress !important;
 }
 ::-webkit-scrollbar {
   overflow-y: overlay !important;
@@ -315,7 +315,7 @@ input[type="submit"]:active {
       right: 17px;
       top: 19px;
       border-radius: 100%;
-      background-size: 25.33px;
+      background-size: 18px;
     }
     &-box {
       width: 100%;
@@ -340,6 +340,9 @@ input[type="submit"]:active {
         }
       }
       &-form {
+        &-button {
+          margin-right: -10px;
+        }
         .nomovi {
           display: none;
         }
@@ -485,7 +488,7 @@ input[type="submit"]:active {
 
   &-go {
     width: 160px;
-    margin-top: 38px;
+    margin-top: 20px;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -514,7 +517,7 @@ input[type="submit"]:active {
       margin: 0 8px;
 
       dl {
-        padding: 20px;
+        padding: 30px;
         dt {
           display: flex;
           justify-content: space-between;
@@ -610,7 +613,7 @@ input[type="submit"]:active {
           }
         }
         dd:nth-of-type(2) {
-          width: 211px;
+          width: 100%;
           height: 44px;
           margin: 32px auto 0;
           background: #ffffff;
@@ -653,7 +656,7 @@ input[type="submit"]:active {
       font-size: 18px;
     }
     &-go {
-      margin-top: 10px;
+      margin-top: 0px;
       font-size: 14px;
     }
 
@@ -927,10 +930,10 @@ input[type="submit"]:active {
       display: flex;
       justify-content: space-between;
       position: relative;
-      top: 260px;
+      top: 340px;
       &-button {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
       }
     }
     width: 100%;
@@ -940,6 +943,8 @@ input[type="submit"]:active {
     &-box {
       width: 100%;
       border-radius: 10px;
+      margin-top: 50px;
+
       &-image {
         width: 100%;
         height: 375px;
@@ -971,6 +976,7 @@ input[type="submit"]:active {
             background: url("@/assets/image/ad/add4.png") no-repeat;
           }
           div {
+            padding-right: 0px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1041,7 +1047,7 @@ input[type="submit"]:active {
   h2 {
     color: #212442;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   > dl {
     display: flex;
@@ -1056,20 +1062,20 @@ input[type="submit"]:active {
 
     &-image {
       display: block;
-      background-size: 280% !important;
+      background-size: cover !important;
       background-position: center !important;
       transition: 1s;
       display: flex;
       justify-content: end;
       background: #eee;
       &-final {
-        background: url("@/assets/image/ad/add1.png");
+        background: url("@/assets/image/pj/pj_final.jpg");
       }
       &-andraste {
-        background: url("@/assets/image/ad/add2.png");
+        background: url("@/assets/image/pj/pj_andraste.jpg");
       }
       &-web {
-        background: url("@/assets/image/ad/add3.png");
+        background: url("@/assets/image/pj/pj_team.jpg");
       }
       span {
         &-final {
@@ -1200,8 +1206,8 @@ input[type="submit"]:active {
   .slick-dots {
     text-align: center;
     position: relative;
-    left: -10px;
-    top: -706px;
+    // left: -10px;
+    top: -724px;
     li {
       margin-left: 0px !important;
       margin-right: 0px !important;
@@ -1243,9 +1249,10 @@ input[type="submit"]:active {
 @media (min-width: 864px) {
   .project {
     width: 100%;
-    height: 1015px;
+    height: 930px;
     h2 {
-      padding-top: 127px;
+      padding-top: 80px;
+      margin-bottom: 20px;
       font-weight: 700;
       font-size: 34px;
     }
@@ -1257,7 +1264,7 @@ input[type="submit"]:active {
       // width: 2000px;
       &-slide {
         width: 390px !important;
-        height: 596px;
+        height: 614px;
         margin: 0 22px;
         border-radius: 20px;
       }
@@ -1267,7 +1274,7 @@ input[type="submit"]:active {
         width: 390px;
         height: 194px;
         padding: 10px 12px;
-        background-size: 280% !important;
+        background-size: 100% !important;
         background-position: center !important;
         span {
           width: 67px;
@@ -1324,10 +1331,12 @@ input[type="submit"]:active {
       &-pj {
         width: 100%;
         button {
-          width: 152px;
+          width: 154px;
           height: 49px;
           border-radius: 40px;
-          margin: 0 10px;
+        }
+        button:first-of-type {
+          margin-right: 10px;
         }
         &-no {
           margin-top: -6px;
@@ -1344,6 +1353,7 @@ input[type="submit"]:active {
     .slick-dots {
       position: relative;
       top: -560px;
+      left: -10px;
     }
     h2 {
       padding-top: 51px;
@@ -1367,7 +1377,7 @@ input[type="submit"]:active {
         width: 255;
         height: 113px;
         padding: 10px 12px;
-        background-size: 280% !important;
+        background-size: 100% !important;
         background-position: center !important;
         span {
           width: 60px;
@@ -1425,6 +1435,7 @@ input[type="submit"]:active {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        font-size: 14px;
         button {
           width: 211px;
           height: 42px;
@@ -1439,7 +1450,9 @@ input[type="submit"]:active {
   .project {
     &-box {
       &-image:hover {
-        background-size: 320% !important;
+        background-size: 120% !important;
+        background-position: center !important;
+        transition: all 2s !important;
       }
 
       &-pj {
@@ -1489,6 +1502,9 @@ input[type="submit"]:active {
       }
     }
     hr {
+      background-color: #ebebeb;
+      height: 1px;
+      border: 0;
     }
     &-copy {
       color: #bababa;
@@ -1575,7 +1591,9 @@ input[type="submit"]:active {
           margin: 0 11px;
         }
       }
-
+      .logo {
+        display: none;
+      }
       .bug {
         background: url("@/assets/image/bug_report.svg") no-repeat;
         width: 16px;
@@ -1588,7 +1606,7 @@ input[type="submit"]:active {
         font-size: 11px;
         line-height: 17px;
         P:last-child {
-          margin-bottom: 16px;
+          margin-bottom: 10px;
         }
       }
       hr {
@@ -1598,7 +1616,7 @@ input[type="submit"]:active {
         display: block;
         height: 54px;
         width: 100%;
-        margin-top: 42px;
+        margin-top: 30px;
         line-height: 54px;
         text-align: center;
         background: #f9f9f9;
@@ -1721,6 +1739,10 @@ input[type="submit"]:active {
   }
 }
 @media (min-width: 864px) {
+  .v-application ul,
+  .v-application ol {
+    padding-left: 0px !important;
+  }
   .modal {
     br {
       display: none;
@@ -1748,10 +1770,11 @@ input[type="submit"]:active {
         }
         &-option {
           width: 168px;
-          top: 268px;
+          top: 248px;
           font-size: 16px;
           &-btn {
             line-height: 60px;
+            padding: 0 0 0 20px;
             &-selected {
             }
           }
@@ -1764,7 +1787,6 @@ input[type="submit"]:active {
       p {
         font-size: 16px;
         line-height: 60px;
-        padding-left: 24px;
       }
       &-radio {
         top: 15px;
@@ -1801,7 +1823,7 @@ input[type="submit"]:active {
       margin-bottom: 15px;
     }
     .textarea {
-      height: 244px;
+      height: 200px;
     }
     input:focus,
     textarea:focus,
@@ -1812,6 +1834,9 @@ input[type="submit"]:active {
       width: 100%;
       height: 64px;
       line-height: 64px;
+    }
+    .v-application p {
+      margin-bottom: 4px;
     }
   }
 }
@@ -1866,6 +1891,7 @@ input[type="submit"]:active {
         font-size: 12px;
         margin-bottom: 0px !important;
         line-height: 60px;
+        padding-left: 24px;
       }
       &-radio {
         line-height: 60px;
@@ -1901,7 +1927,7 @@ input[type="submit"]:active {
       margin-bottom: 11px;
     }
     .textarea {
-      height: 160px;
+      height: 100px;
     }
     input:focus,
     textarea:focus,
@@ -1910,8 +1936,11 @@ input[type="submit"]:active {
 
     .send {
       width: 100%;
-      height: 64px;
-      line-height: 64px;
+      height: 46px;
+      line-height: 46px;
+    }
+    .v-application p {
+      margin-bottom: 10px;
     }
   }
 }

@@ -56,6 +56,14 @@
         placeholder="사용 가능한 툴, 언어를 적어주세요."
         class="text"
       />
+      <input
+        ref="email"
+        v-model="email"
+        name="email"
+        type="text"
+        placeholder="이메일을 적어주세요."
+        class="text"
+      />
       <textarea
         ref="introduction"
         v-model="introduction"
@@ -96,6 +104,7 @@ export default {
       selectedPosition: "포지션",
       name: "",
       tools: "",
+      email: "",
       introduction: "",
     };
   },
@@ -105,11 +114,20 @@ export default {
         this.name &&
         this.selectedPosition !== "포지션" &&
         this.tools &&
+        this.email &&
         this.introduction
       );
     },
   },
   methods: {
+    resetForm() {
+      this.name = "";
+      this.selectedPosition = "포지션";
+      this.selectedOption = "no";
+      this.tools = "";
+      this.email = "";
+      this.introduction = "";
+    },
     togglePosition() {
       this.hidePositionOptions = !this.hidePositionOptions;
     },
@@ -129,6 +147,7 @@ export default {
         position: this.selectedPosition,
         experience: this.selectedOption,
         tools: this.tools,
+        email: this.email,
         introduction: this.introduction,
       };
       // 클릭 여부 확인
@@ -146,6 +165,7 @@ export default {
           console.log("이메일이 성공적으로 전송되었습니다.");
           alert("이메일이 성공적으로 전송되었습니다.");
           // 추가적인 처리나 리다이렉션 등을 수행할 수 있습니다.
+          this.resetForm();
           this.$emit("closeDialog");
         })
         .catch((error) => {

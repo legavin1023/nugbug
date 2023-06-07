@@ -83,9 +83,9 @@
           </dd>
           <dt class="project-box-sj">
             <span>web</span>
-            <h3>Reference.final</h3>
-            <p>For the Andraste</p>
-            <p>2022. 4. 10 ~</p>
+            <h3>For the Andraste</h3>
+            <p>원작자가 안줘서 팬들끼리 만든 New 떡밥</p>
+            <p>2022. 4. 29 ~</p>
           </dt>
           <dd class="project-box-team">
             <div class="project-box-team-image t1 tooltip">
@@ -123,13 +123,13 @@
       <div class="project-box-slide">
         <dl>
           <dd class="project-box-image project-box-image-web">
-            <span>진행중</span>
+            <span>완료</span>
           </dd>
           <dt class="project-box-sj">
             <span>web</span>
             <h3>프로젝트 팀 홈페이지</h3>
             <p>너그버그의 프로젝트 소개 페이지 제작</p>
-            <p>2022. 4. 10 ~</p>
+            <p>2022. 4. 29 ~ 2022. 06. 05</p>
           </dt>
           <dd class="project-box-team">
             <!-- <div class="project-box-team-image t1  tooltip">
