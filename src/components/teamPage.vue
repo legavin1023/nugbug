@@ -121,19 +121,19 @@
             <div class="position">
               <div class="position-box">
                 <span>팀원</span>
-                <span>개발자</span>
+                <span>영상</span>
               </div>
               <h4 class="twitter">
-                엔디안<span class="twitter-box">twitter</span>
+                케세<span class="twitter-box">twitter</span>
               </h4>
             </div>
             <div class="profile t4"></div>
           </dt>
           <dd>
-            <p>살암살려!</p>
+            <p>저 바보 아니거든여?</p>
             <p>
-              이과인데도 글도 쓰는 이·문과 통합 사기캐 <br />
-              데이터를 주무르는 백엔드 개발자
+              영상을 사랑하지만 혹독한 현실에 밀려 <br />
+              앙앙 울고있는 영상 디자이너
             </p>
           </dd>
           <dd>

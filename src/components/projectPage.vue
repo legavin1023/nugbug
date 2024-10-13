@@ -35,7 +35,7 @@
       <div class="project-box-slide">
         <dl>
           <dd class="project-box-image project-box-image-final">
-            <span>진행중</span>
+            <span>종료</span>
           </dd>
           <dt class="project-box-sj">
             <span>web</span>
@@ -59,33 +59,33 @@
                 <span>팀원</span><span>프론트엔드</span><span>Oxy</span>
               </p>
             </div>
-            <div class="project-box-team-image t4 tooltip">
+            <!-- <div class="project-box-team-image t4 tooltip">
               <p class="tooltiptext">
-                <span>팀원</span><span>백엔드</span><span>엔디안</span>
+                <span>팀원</span><span>영상</span><span>케세</span>
               </p>
-            </div>
+            </div> -->
           </dd>
           <dd class="project-box-stack">
             <span>figma</span>
             <span>vue.js</span>
-            <span>node.js</span>
+            <!-- <span>node.js</span> -->
           </dd>
           <dd class="project-box-pj">
-            <button class="project-box-pj-git">프로젝트 깃헙</button>
-            <button class="project-box-pj-page">서비스 페이지</button>
+            <!-- <button class="project-box-pj-git" disabled>프로젝트 깃헙</button> -->
+            <button class="project-box-pj-page" disabled>서비스 페이지</button>
           </dd>
         </dl>
       </div>
       <div class="project-box-slide">
         <dl>
           <dd class="project-box-image project-box-image-andraste">
-            <span>진행중</span>
+            <span>완료</span>
           </dd>
           <dt class="project-box-sj">
             <span>web</span>
             <h3>For the Andraste</h3>
             <p>원작자가 안줘서 팬들끼리 만든 New 떡밥</p>
-            <p>2022. 4. 29 ~</p>
+            <p>2022. 4. 29 ~ 2023. 10. 23</p>
           </dt>
           <dd class="project-box-team">
             <div class="project-box-team-image t1 tooltip">
@@ -105,18 +105,22 @@
             </div>
             <!-- <div class="project-box-team-image t4 tooltip">
               <p class="tooltiptext">
-                <span>팀원</span><span>백엔드</span><span>엔디안</span>
+                <span>팀원</span><span>영상</span><span>케세</span>
               </p>
             </div> -->
           </dd>
           <dd class="project-box-stack">
             <span>figma</span>
             <span>vue.js</span>
-            <span>node.js</span>
+            <!-- <span>node.js</span> -->
           </dd>
           <dd class="project-box-pj">
-            <button class="project-box-pj-git">프로젝트 깃헙</button>
-            <button class="project-box-pj-page">서비스 페이지</button>
+            <!-- <button class="project-box-pj-git" disabled>프로젝트 깃헙</button> -->
+            <button class="project-box-pj-page">
+              <a href="https://legavin1023.github.io/forAndraste/"
+                >서비스 페이지</a
+              >
+            </button>
           </dd>
         </dl>
       </div>
@@ -149,18 +153,48 @@
             </div>
             <!-- <div class="project-box-team-image t4 tooltip">
               <p class="tooltiptext">
-                <span>팀원</span><span>백엔드</span><span>엔디안</span>
+                <span>팀원</span><span>영상</span><span>케세</span>
               </p>
             </div> -->
           </dd>
           <dd class="project-box-stack">
             <span>figma</span>
             <span>vue.js</span>
-            <span>node.js</span>
+            <!-- <span>node.js</span> -->
           </dd>
           <dd class="project-box-pj">
-            <button class="project-box-pj-git">프로젝트 깃헙</button>
-            <button class="project-box-pj-page">서비스 페이지</button>
+            <!-- <button class="project-box-pj-git" disabled>프로젝트 깃헙</button> -->
+            <button class="project-box-pj-page">
+              <a href="https://legavin1023.github.io/nugbug/">서비스 페이지</a>
+            </button>
+          </dd>
+        </dl>
+      </div>
+      <div class="project-box-slide">
+        <dl>
+          <dd class="project-box-image"><span>진행중</span></dd>
+          <dt class="project-box-sj">
+            <span>플랫폼</span>
+            <h3>DA-Escape-Room</h3>
+            <p>두근두근 방탈출 게임</p>
+            <p>2023. 9. 9 ~</p>
+          </dt>
+          <dd class="project-box-team">
+            <div class="project-box-team-image t1"></div>
+            <div class="project-box-team-image t2"></div>
+            <div class="project-box-team-image t3"></div>
+            <div class="project-box-team-image t4"></div>
+          </dd>
+          <dd class="project-box-stack">
+            <span>figma</span>
+            <span>vue.js</span>
+            <span>After effects</span>
+          </dd>
+          <dd class="project-box-pj">
+            <!-- <button class="project-box-pj-git" disabled>프로젝트 깃헙</button> -->
+            <button class="project-box-pj-page-no" disabled>
+              서비스 페이지
+            </button>
           </dd>
         </dl>
       </div>
@@ -188,39 +222,12 @@
             <span></span>
             <span></span>
           </dd>
-          <dd class="project-box-pj project-box-pj-no">
-            <button class="project-box-pj-git">프로젝트 깃헙</button>
-            <button class="project-box-pj-page">서비스 페이지</button>
-          </dd>
-        </dl>
-      </div>
-      <div class="project-box-slide">
-        <dl>
-          <dd class="project-box-image"><span>미진행</span></dd>
-          <dt class="project-box-sj">
-            <span>플랫폼</span>
-            <h3>구상중</h3>
-            <p>영계에서 영감받아오기</p>
-            <p>기간</p>
-          </dt>
-          <dd class="project-box-team">
-            <div class="project-box-team-image"></div>
-            <div class="project-box-team-image"></div>
-            <div class="project-box-team-image"></div>
-            <div class="project-box-team-image"></div>
-            <!-- <div class="project-box-team-image t1"></div> -->
-            <!-- <div class="project-box-team-image t2"></div> -->
-            <!-- <div class="project-box-team-image t3"></div> -->
-            <!-- <div class="project-box-team-image t4"></div> -->
-          </dd>
-          <dd class="project-box-stack">
-            <span></span>
-            <span></span>
-            <span></span>
-          </dd>
-          <dd class="project-box-pj project-box-pj-no">
-            <button class="project-box-pj-git">프로젝트 깃헙</button>
-            <button class="project-box-pj-page">서비스 페이지</button>
+          <dd class="project-box-pj">
+            <!-- <button class="project-box-pj-git" disabled>프로젝트 깃헙</button> -->
+            <!-- <button class="project-box-pj-page">서비스 페이지</button> -->
+            <button class="project-box-pj-page-no" disabled>
+              서비스 페이지
+            </button>
           </dd>
         </dl>
       </div>

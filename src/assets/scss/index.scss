@@ -1,115 +1,15 @@
 //--------------- 폰트
+@charset "UTF-8";
+@import "~pretendard/dist/web/static/pretendard.css";
 
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 100;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot?#iefix") format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 200;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 300;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 400;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 500;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 600;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 700;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot?#iefix") format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 800;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.ttf") format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pretendard";
-  font-weight: 900;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot");
-  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.ttf") format("truetype");
-  font-display: swap;
-}
 * {
   font-family: "Pretendard" !important;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+  font-smooth: always; /* Edge */
 }
+
 //--------------- 폰트
 //--------------- 공통
 html,
@@ -119,18 +19,30 @@ body {
   padding: 0;
 }
 body {
-  cursor: url("@/assets/image/cursor/normal.svg"), url("@/assets/image/cursor/normal.svg") 5 5, progress !important;
+  cursor:
+    url("@/assets/image/cursor/normal.svg"),
+    url("@/assets/image/cursor/normal.svg") 5 5,
+    progress !important;
 }
 body:active {
-  cursor: url("@/assets/image/cursor/click.svg"), url("@/assets/image/cursor/click.svg") 5 5, progress !important;
+  cursor:
+    url("@/assets/image/cursor/click.svg"),
+    url("@/assets/image/cursor/click.svg") 5 5,
+    progress !important;
 }
 input,
 textarea {
-  cursor: url("@/assets/image/cursor/normal.svg"), url("@/assets/image/cursor/normal.svg") 5 5, progress !important;
+  cursor:
+    url("@/assets/image/cursor/normal.svg"),
+    url("@/assets/image/cursor/normal.svg") 5 5,
+    progress !important;
 }
 input:active,
 button:active {
-  cursor: url("@/assets/image/cursor/click.svg"), url("@/assets/image/cursor/click.svg") 5 5, progress !important;
+  cursor:
+    url("@/assets/image/cursor/click.svg"),
+    url("@/assets/image/cursor/click.svg") 5 5,
+    progress !important;
 }
 button,
 a,
@@ -138,7 +50,10 @@ label,
 select,
 option,
 input[type="submit"] {
-  cursor: url("@/assets/image/cursor/link.svg"), url("@/assets/image/cursor/link.svg") 5 5, progress !important;
+  cursor:
+    url("@/assets/image/cursor/link.svg"),
+    url("@/assets/image/cursor/link.svg") 5 5,
+    progress !important;
 }
 button:active,
 a:active,
@@ -146,7 +61,10 @@ label:active,
 select:active,
 option:active,
 input[type="submit"]:active {
-  cursor: url("@/assets/image/cursor/click.svg"), url("@/assets/image/cursor/click.svg") 5 5, progress !important;
+  cursor:
+    url("@/assets/image/cursor/click.svg"),
+    url("@/assets/image/cursor/click.svg") 5 5,
+    progress !important;
 }
 ::-webkit-scrollbar {
   overflow-y: overlay !important;
@@ -582,10 +500,10 @@ input[type="submit"]:active {
               background-position: center 4px;
             }
             &.t4 {
-              background: url("@/assets/image/profile/엔디안.png") no-repeat;
+              background: url("@/assets/image/profile/케세.png") no-repeat;
               background-color: #d8f1ff;
               background-size: 76.9px;
-              background-position: center -30px;
+              background-position: 14px 10px;
             }
           }
         }
@@ -606,7 +524,7 @@ input[type="submit"]:active {
           }
           p:nth-of-type(2) {
             margin-top: 10px;
-            font-weight: 500;
+            font-weight: 400;
             font-size: 13px;
             line-height: 20px;
             letter-spacing: -0.035em;
@@ -838,6 +756,8 @@ input[type="submit"]:active {
       display: flex !important;
       align-items: center;
       justify-content: end;
+      background: url("@/assets/image/ad/add1.png");
+      background-position: center !important;
       .text {
         width: 100%;
         display: flex;
@@ -1068,6 +988,7 @@ input[type="submit"]:active {
       display: flex;
       justify-content: end;
       background: #eee;
+      background: url("@/assets/image/pj/img_area_default.png");
       &-final {
         background: url("@/assets/image/pj/pj_final.jpg");
       }
@@ -1075,7 +996,7 @@ input[type="submit"]:active {
         background: url("@/assets/image/pj/pj_andraste.jpg");
       }
       &-web {
-        background: url("@/assets/image/pj/pj_team.jpg");
+        background: url("@/assets/image/pj/pj_team.png");
       }
       span {
         &-final {
@@ -1099,9 +1020,12 @@ input[type="submit"]:active {
     }
     &-team {
       display: flex;
+      &-image {
+        background: url("@/assets/image/profile/usericon_default.png") no-repeat;
+      }
       div {
         background-size: 100%;
-        background: #f9f9f9;
+        // background: #f9f9f9;
       }
       .tooltip {
         position: relative;
@@ -1181,10 +1105,10 @@ input[type="submit"]:active {
         background-position: center 2px;
       }
       .t4 {
-        background: url("@/assets/image/profile/엔디안.png") no-repeat;
+        background: url("@/assets/image/profile/케세.png") no-repeat;
         background-color: #d8f1ff;
         background-size: 33.09px;
-        background-position: center -14px;
+        background-position: 6px 4px;
       }
     }
     &-stack {
@@ -1199,7 +1123,22 @@ input[type="submit"]:active {
       display: flex;
       justify-content: center;
       button {
+        width: 100%;
         border: 1px solid #e2e2e2;
+        a {
+          width: 100%;
+          height: 100%;
+          color: #373737;
+        }
+      }
+      button:disabled {
+        background: #fff;
+        color: #eee;
+        cursor: none;
+      }
+
+      button:disabled {
+        border: 1px solid #eee;
       }
     }
   }
@@ -1321,17 +1260,17 @@ input[type="submit"]:active {
       &-stack {
         padding: 15px 38px 29px;
         span {
-          width: 61px;
+          padding: 6px 10px;
           height: 30px;
           border-radius: 4px;
-          line-height: 30px;
+          line-height: 20px;
           margin-right: 6px;
         }
       }
       &-pj {
         width: 100%;
         button {
-          width: 154px;
+          width: 310px;
           height: 49px;
           border-radius: 40px;
         }
@@ -1434,12 +1373,12 @@ input[type="submit"]:active {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 100%;
         font-size: 14px;
         button {
           width: 211px;
           height: 42px;
-          margin: 0 0 6px;
           border-radius: 40px;
         }
       }
@@ -1459,7 +1398,14 @@ input[type="submit"]:active {
         button:hover {
           background: #2b2c32;
           color: #fff;
+          a {
+            color: #fff;
+          }
         }
+      }
+      button:disabled:hover {
+        background: #fff;
+        color: #eee;
       }
     }
   }
