@@ -94,6 +94,15 @@ input[type="submit"]:active {
   display: flex;
   justify-content: center;
   align-items: end;
+  .nugbugImage {
+    position: absolute;
+    width: 100%;
+    height: 389px;
+    background-position: right 30% bottom 8px !important;
+    background-size: 30% !important;
+    animation: nugbugImage 10s infinite;
+    z-index: 2;
+  }
   .email {
     position: absolute;
     border-radius: 100%;
@@ -104,8 +113,9 @@ input[type="submit"]:active {
     animation: emailColor 10s infinite;
     opacity: 80%;
   }
+
   &-box {
-    animation: nugbugImage 10s infinite;
+    z-index: 30;
     &-contents {
       display: flex;
       flex-direction: column;
@@ -170,8 +180,7 @@ input[type="submit"]:active {
       width: 65%;
       min-width: 850px;
       height: 389px;
-      background-position: right 30px bottom 6px !important;
-      background-size: 61.2% !important;
+
       &-contents {
         width: 100%;
         height: 346px;
@@ -225,6 +234,15 @@ input[type="submit"]:active {
 @media (max-width: 863px) {
   .header {
     width: 100%;
+    .nugbugImage {
+      position: absolute;
+      width: 100%;
+      height: 389px;
+      background-position: center bottom 8px !important;
+      background-size: 300px !important;
+      animation: nugbugImage 10s infinite;
+      z-index: 2;
+    }
     .email {
       width: 40px;
       height: 40px;
@@ -238,7 +256,7 @@ input[type="submit"]:active {
     &-box {
       width: 100%;
       height: 285px;
-      background-position: center bottom 12px !important;
+      background-position: center bottom 10px !important;
       background-size: 300px !important;
       &-contents {
         width: 100%;

@@ -6,6 +6,7 @@
       href="https://docs.google.com/forms/d/e/1FAIpQLSdXhsfyZ7fH33mXbGihshjjri6RGFikMs1UoSvkQjrX-aqO8Q/viewform"
       >이메일</a
     >
+    <div class="nugbugImage"></div>
     <div class="header-box">
       <div class="header-box-contents">
         <h2>
