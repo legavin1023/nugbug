@@ -179,11 +179,28 @@
             <p>두근두근 방탈출 게임</p>
             <p>2023. 9. 9 ~</p>
           </dt>
+
           <dd class="project-box-team">
-            <div class="project-box-team-image t1"></div>
-            <div class="project-box-team-image t2"></div>
-            <div class="project-box-team-image t3"></div>
-            <div class="project-box-team-image t4"></div>
+            <div class="project-box-team-image t1 tooltip">
+              <p class="tooltiptext lee">
+                <span>팀장</span><span>기획자</span><span>아델.lee</span>
+              </p>
+            </div>
+            <div class="project-box-team-image t2 tooltip">
+              <p class="tooltiptext">
+                <span>팀원</span><span>디자이너</span><span>홍디</span>
+              </p>
+            </div>
+            <div class="project-box-team-image t3 tooltip">
+              <p class="tooltiptext">
+                <span>팀원</span><span>프론트엔드</span><span>Oxy</span>
+              </p>
+            </div>
+            <div class="project-box-team-image t4 tooltip">
+              <p class="tooltiptext">
+                <span>팀원</span><span>영상</span><span>케세</span>
+              </p>
+            </div>
           </dd>
           <dd class="project-box-stack">
             <span>figma</span>
