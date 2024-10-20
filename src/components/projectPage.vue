@@ -211,8 +211,10 @@
           </dd>
           <dd class="project-box-pj">
             <!-- <button class="project-box-pj-git" disabled>프로젝트 깃헙</button> -->
-            <button class="project-box-pj-page-no" disabled>
-              서비스 페이지
+            <button class="project-box-pj-page-no">
+              <a href="https://legavin1023.github.io/DA-Escape-Room/#/main"
+                >서비스 페이지</a
+              >
             </button>
           </dd>
         </dl>
