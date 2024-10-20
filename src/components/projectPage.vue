@@ -172,12 +172,14 @@
       </div>
       <div class="project-box-slide">
         <dl>
-          <dd class="project-box-image"><span>진행중</span></dd>
+          <dd class="project-box-image project-box-image-escape">
+            <span>완료</span>
+          </dd>
           <dt class="project-box-sj">
             <span>플랫폼</span>
             <h3>DA-Escape-Room</h3>
             <p>두근두근 방탈출 게임</p>
-            <p>2023. 9. 9 ~</p>
+            <p>2023. 9. 9 ~ 2023. 10. 20</p>
           </dt>
 
           <dd class="project-box-team">
